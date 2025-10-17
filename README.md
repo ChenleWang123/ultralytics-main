@@ -196,13 +196,22 @@ Results remain stable across varied lighting and weather conditions (day/night, 
 
 ---
 
-## 🔭 10. Future Work
+## 🔧10. Source of the Visualization Interface
 
-- **Model Optimization**: Apply pruning and quantization for embedded deployment  
-- **Multimodal Sensor Fusion**: Combine LiDAR and radar data for improved perception  
-- **Online Learning**: Enable self-adaptive training in dynamic environments  
-- **Explainability Research**: Enhance interpretability and safety of the system  
+The PyQt5 graphical user interface of this project is based on the open-source works Javacr/PyQt5-YOLOv5
+ and qqh0618/yolo4all
+, and has been further developed and extended.
+On the basis of the original interface framework, the following improvements and optimizations have been made:
 
+Adapted the interface to support the YOLOv8-GAM improved model;
+
+Enhanced interaction logic between the GUI and the model inference module;
+
+Unified the overall UI style to better fit the visualization needs of autonomous driving detection scenarios.
+
+🙏 Thanks to the original author Javacr
+ and the improved author yolo4all
+ for providing high-quality PyQt5 interface code, which made it possible for this project to innovate and expand upon their work.
 ---
 
 ## 🙏 11. Acknowledgments
@@ -210,8 +219,8 @@ Results remain stable across varied lighting and weather conditions (day/night, 
 This project is developed based on **Ultralytics YOLOv8 framework** with inspiration from the open-source community.  
 Special thanks to the project **YOLOv5-PyQt-GUI** for GUI design reference, adapted and optimized for YOLOv8-GAM.
 
-- Advisor: **Prof. Liu Sheng**  
-- Author: **Wang Chenle**  
+- Advisor: **Prof. Liu, Sheng**  
+- Author: **Wang, Chenle**  
 - Type: Undergraduate Thesis (Class of 2024)  
 - Institution: **Xi'an University of Technology (XAUT)**  
 
